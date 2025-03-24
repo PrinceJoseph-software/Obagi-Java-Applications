@@ -1,0 +1,158 @@
+Self-Review Exercises 2.1 (Fill in the blanks)
+a) A(n) curly brace ({) begins the body of every method, and a(n) curly brace (}) ends the body of every method.
+b) You can use the if statement to make decisions.
+c) // begins an end-of-line comment.
+d) Space, tab, and newline are called white space.
+e) Keywords (or reserved words) are reserved for use by Java.
+f) Java applications begin execution at method main.
+g) Methods System.out.print, System.out.println, and System.out.printf display information in a command window.
+
+
+Self-Review Exercises 2.2 (True or False)
+a) False – Comments are ignored by the compiler and do not cause any output.
+b) True – All variables must have a data type when declared.
+c) False – Java is case-sensitive, so number and NuMbEr are different variables.
+d) False – The remainder operator (%) can be used with both integer and floating-point operands.
+e) False – Multiplication (*), division (/), and modulus (%) have higher precedence than addition (+) and subtraction (-).
+
+
+Self-Review Exercises 2.3 (Write Statements)
+a) int c, thisIsAVariable, q76354, number
+b) System.out.print("Enter an integer: ")
+c) int value = input.nextInt()
+d) System.out.println("This is a Java program")
+e) System.out.printf("This is a Java%nprogram%n")
+f) if (number != 7) {
+    System.out.println("The variable number is not equal to 7");
+}
+
+
+Self-Review Exercises 2.4 (Correct Errors)
+a) Error: Semicolon after if statement
+b) Error: Wrong relational operator (=> should be >=)
+
+
+Self-Review Exercises 2.5 (Write Statements)
+a) // This program calculates the product of three integers
+b) Scanner input = new Scanner(System.in);
+c) int x, y, z, result;
+d) System.out.print("Enter the first integer: ");
+e) x = input.nextInt();
+f) System.out.print("Enter the second integer: ");
+g) y = input.nextInt();
+h) System.out.print("Enter the third integer: ");
+i) z = input.nextInt();
+j) result = x * y * z;
+k) System.out.printf("Product is %d%n", result);
+
+
+Exercise 2.7 (Fill in the blanks)
+a) Comments are used to document a program and improve its readability.
+b) A decision can be made in a Java program with a(n) if statement.
+c) Calculations are normally performed by arithmetic statements.
+d) The arithmetic operators with the same precedence as multiplication are division (/) and modulus (%).
+e) When parentheses in an arithmetic expression are nested, the innermost set of parentheses is evaluated first.
+f) A location in the computer’s memory that may contain different values at various times throughout the execution of a program is called a(n) variable.
+
+
+Exercise 2.8 (Write Java statements)
+a) System.out.print("Enter an integer: ");
+b) a = b * c;
+c) // This program performs a sample payroll calculation
+
+Exercise 2.9 (True or False)
+a) False – Operators follow precedence rules, not just left-to-right evaluation.
+b) True – These are all valid variable names.
+c) False – Operators follow precedence rules. For example, multiplication and division are evaluated before addition and subtraction.
+d) True – Variable names cannot start with a number.
+
+Exercise 2.10 (Output of Java statements)
+Assuming x = 2 and y = 3:
+a) x = 2
+b) Value of 2 + 2 is 4
+c) x =
+d) 5 = 5
+
+
+Exercise 2.11 (Modified Variables)
+The following statements modify variables:
+a) p = i + j + k + 7; (p is modified)
+d) value = input.nextInt(); (value is assigned user input)
+Statements b and c only print values and do not modify variables.
+
+Exercise 2.12 (Correct Java Statements for y = ax³ + 7)
+Correct statements:
+y = a * x * x * x + 7;  // Correct
+y = (a * x) * x * x + 7;  // Correct
+y = a * (x * x * x) + 7;  // Correct
+
+Exercise 2.13 (Operator Precedence & Evaluation Order)
+a)Steps:
+3 * 6 = 18
+18 / 2 = 9
+7 + 9 = 16
+16 - 1 = 15
+Final Value: x = 15
+b)Steps:
+2 % 2 = 0
+2 * 2 = 4
+2 / 2 = 1
+0 + 4 - 1 = 3
+Final Value: x = 3
+c)Steps:
+9 * 3 = 27
+27 / 3 = 9
+3 + 9 = 12
+3 * 9 * 12 = 324
+Final Value: x = 324
+
+
+Exercise 2.14 (Printing 1 to 4 on the Same Line)
+a) Using one System.out.println:System.out.println("1 2 3 4");
+b) Using four System.out.print:
+System.out.print("1 ");
+System.out.print("2 ");
+System.out.print("3 ");
+System.out.print("4\n");
+c) Using System.out.printf:System.out.printf("%d %d %d %d%n", 1, 2, 3, 4);
+
+
+Exercise 2.19(Understanding Print Statements)
+Output:
+*
+**
+***
+****
+*****
+
+Exercise 2.20
+Output:
+*
+***
+*****
+****
+**
+
+Exercise 2.21
+Output:***************
+
+
+Exercise 2.22
+Output:
+****
+*****
+**** **
+
+
+Exercise 2.23
+Output:
+*
+***
+*****
+
+
+
+
+
+
+
