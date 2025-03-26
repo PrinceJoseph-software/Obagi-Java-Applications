@@ -16,6 +16,13 @@ public class Operators {
         boolean isGreaterThan = num1 > num2;
         boolean isGreaterThanOrEqualTo = num1 >= num2;
         boolean isLessThanOrEqualTo = num1 <= num2;
+		boolean isEqualTo = num1 == num2;
+		boolean isNotEqualTo = num1 != num2;
+		
+		//Logical Operation  (&&(and),||(or),!(not))
+		boolean isAndOperator = num1 > num2 && num1 >= num2;
+		boolean isOrOperator = num1 == num2 || num1 >= num2;
+		boolean isNotOperator = !(num1 == num2 || num1 >= num2);
 
         // Output results
         System.out.printf("The sum of the numbers is: %d.%n", sum);
@@ -29,5 +36,12 @@ public class Operators {
         System.out.printf("Is %d > %d? %b.%n", num1, num2, isGreaterThan);
         System.out.printf("Is %d >= %d? %b.%n", num1, num2, isGreaterThanOrEqualTo);
         System.out.printf("Is %d <= %d? %b.%n", num1, num2, isLessThanOrEqualTo);
+		System.out.printf("Is %d == %d? %b.%n", num1, num2, isEqualTo);
+		System.out.printf("Is %d != %d? %b.%n", num1, num2, isNotEqualTo);
+		System.out.println("====================================================");
+		
+		System.out.printf("Is %d > %d && %d >= %d? %b.%n", num1, num2, num1, num2, isAndOperator);
+		System.out.printf("Is %d == %d || %d >= %d? %b.%n", num1, num2, num1, num2, isOrOperator);
+		System.out.printf("Is !(%d == %d || %d >= %d)? %b.%n", num1, num2, num1, num2, isNotOperator);
     }
 }
