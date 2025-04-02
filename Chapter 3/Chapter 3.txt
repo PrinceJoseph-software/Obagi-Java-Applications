@@ -1,0 +1,54 @@
+3.10 Compare and contrast if and while statements.
+Similarities:
+a)Both use a boolean condition to determine execution.
+b)Both can execute a block of code based on a condition.
+Differences:
+a)if is a single-selection statement: It executes once if the condition is true.
+b)while is a repetition statement: It repeatedly executes the block as long as the condition is true.
+
+3.11 Integer division in Java
+When Java divides one integer by another, it performs integer division and discards any fractional part (truncates toward zero). To avoid this, you can cast one or both operands to floating-point types (double or float) before division.
+
+3.12 Combining control statements
+Control statements can be combined:
+a)By nesting (placing one control statement inside another)
+b)By sequencing (placing control statements one after another in sequence)
+
+
+3.13 Repetition for summing numbers
+For the first 100 positive integers: counter-controlled repetition (for loop) is appropriate.
+For an arbitrary number: sentinel-controlled repetition (while loop) is appropriate.
+
+3.14 Preincrement vs postincrement
+Preincrement (++x): increments the variable first, then returns the new value.
+Postincrement (x++): returns the original value first, then increments the variable.
+
+3.15 Code error correction
+a)
+
+if (age >= 65)  // Removed semicolon
+    System.out.println("Age is greater than or equal to 65");
+else 
+    System.out.println("Age is less than 65");  // Fixed missing quote
+b)
+
+int x = 1, total = 0;  // Initialize total
+while (x <= 10) {
+    total += x; 
+    ++x;
+}
+c)
+
+while (x <= 100) {
+    total += x;  // Added braces for block
+    ++x;
+}
+d)
+
+while (y > 0) {
+    System.out.println(y);
+    --y;  // Changed to decrement to avoid infinite loop
+
+
+
+
