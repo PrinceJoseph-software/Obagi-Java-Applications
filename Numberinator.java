@@ -18,4 +18,4 @@ public class Numberinator {
     }
 }
 
-//This is code is by no means property of doof.
+//This is code is by no means property of Heinz Doofenshmirtz.

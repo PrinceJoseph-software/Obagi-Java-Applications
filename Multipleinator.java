@@ -17,3 +17,5 @@ public class Multipleinator {
 
     }
 }
+
+//This is code is by no means property of Heinz Doofenshmirtz.
